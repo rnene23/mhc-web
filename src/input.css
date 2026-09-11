@@ -1,0 +1,23 @@
+/* Basic Reset */ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-heading: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+
+  /* your existing color variables stay here too */
+  --color-amber-100: oklch(96.2% 0.059 95.617);
+  /* ...etc */
+}
+
+h1 {
+  @apply font-heading font-bold text-7xl;
+}
+
+h2 {
+  @apply font-heading font-bold text-6xl;
+}
+
+h3 {
+  @apply font-heading font-bold text-4xl;
+}
